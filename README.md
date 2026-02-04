@@ -4,7 +4,29 @@
 
 本项目是一个**跨境电商卖家与海外仓对接的 EDI 业务系统**，集成 AWS B2B Data Interchange (B2BI) 服务实现 EDI 报文的标准化解析。
 
-### 业务背景
+## 系统截图
+
+### 库存管理
+![库存管理](images/01-inventory.png)
+
+### 推送订单
+![推送订单](images/02-order.png)
+
+### 入库管理
+![入库管理](images/03-inbound.png)
+
+### 订单查询
+![订单查询](images/04-order-list.png)
+
+### EDI 日志
+![EDI日志](images/05-edi-log.png)
+
+### EDI 详情 (B2BI 解析结果)
+![EDI详情](images/06-edi-detail.png)
+
+---
+
+## 业务背景
 
 ```
 ┌─────────────┐                    ┌─────────────┐
